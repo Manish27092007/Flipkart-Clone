@@ -18,7 +18,6 @@ spec:
       - name: flipkart
         image: manish27092007/ekart:latest
         ports:
-        imagepullpolicy: always
         - containerPort: 80
 
 
