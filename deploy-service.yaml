@@ -28,7 +28,7 @@ metadata: # Metadata of the resource kind we are creating
   name: flipkart-deployment
 spec:
   selector:
-    app: manish27092007/ekart:latest
+    app: flipkart
   ports:
     - protocol: "TCP"
       port: 80
